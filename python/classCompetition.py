@@ -45,6 +45,7 @@ def getIndexOfNumberInArrayWithWhileFast(arr: list[int], searchNumber: int) -> i
 arr = [i for i in range(10**9)]
 start_time = time.time()
 getIndexOfNumberInArrayWithWhileFast(arr=arr, searchNumber=(10**9)/2 + 3)
+getIndexOfNumberInArray1(arr=[i for i in range(10**8)], searchNumber=850000)
 end_time = time.time()
 execution_time = end_time - start_time
 print(f"The function executed in {execution_time} seconds.")
